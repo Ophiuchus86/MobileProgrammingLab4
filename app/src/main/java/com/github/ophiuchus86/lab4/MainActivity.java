@@ -40,12 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
                 List<University> universities = response.body();
-                for(University uni: universities){
-                    //
-                }
-                List<String> pages = universities.get(0).getPages();
-                Log.d("MainActivity", "Universities:" + universities.size());
-                Log.d("MainActivity", "Pages:" + pages.toString());
+
                 setupUniversitiesRecView(universities);
             }
 

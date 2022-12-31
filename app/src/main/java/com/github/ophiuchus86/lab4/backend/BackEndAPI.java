@@ -9,7 +9,4 @@ import java.util.List;
 public interface BackEndAPI {
     @GET("search?country=United%20Kingdom")
     Call<List<University>> getBritainUniversities();
-
-    @GET("search?country=Ukraine")
-    Call<List<University>> getUkraineUniversities();
 }

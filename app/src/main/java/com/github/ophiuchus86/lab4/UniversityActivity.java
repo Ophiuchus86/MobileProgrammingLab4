@@ -29,17 +29,8 @@ public class UniversityActivity extends AppCompatActivity {
 
         ArrayList<String> domains = intent.getStringArrayListExtra("domains");
         universityDomains.setText(domains.toString());
-//        StringBuilder domainsString = new StringBuilder();
-//        for(String domain: domains)
-//            domainsString.append(domain).append("\n");
-//        universityDomains.setText(domainsString);
-//
+
         ArrayList<String> pages = intent.getStringArrayListExtra("pages");
         universityPages.setText(pages.toString());
-//        StringBuilder pagesString = new StringBuilder();
-//        for(String page: pages)
-//            pagesString.append(page).append("\n");
-
-
     }
 }
